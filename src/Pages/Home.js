@@ -27,11 +27,11 @@ const Home = ()=>{
 
     const fetchDetails = async () =>{
       try {
-        const {data} =await Axios.get(`https://api.github.com/users/${query}`)
+        const {data} = await Axios.get(`https://api.github.com/users/${query}`)
         setUser(data);
-        console.log({data})
+        console.log({data});
       } catch (error) {
-        toast("Not able to locate user",{type:error})
+        toast("Not able to locate user",{type:"error"})
       }
     }
 
