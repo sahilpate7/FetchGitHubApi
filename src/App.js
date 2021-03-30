@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // React Router
 
-import {Route,Switch,BrowserRouter as Router,Link} from 'react-router-dom';
+import {Route,Switch,BrowserRouter as Router} from 'react-router-dom';
 
 // toast
 
